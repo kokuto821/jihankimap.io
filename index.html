@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-   <meta charset="utf-8">
-   <meta name="robots" content="noindex,nofollow">
-   <title>自販機マップ</title>
+<meta charset="utf-8">
+<meta name="robots" content="noindex,nofollow">
+<title>自販機マップ</title>
 
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- faviconの読み込み -->
+<link rel="icon" href="img/faviconjihanki.ico">
+<!-- cssの読み込み -->
 <link rel="stylesheet" href="css/styles.css">
-
+<!-- fontの読み込み -->
+<link href="https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c" rel="stylesheet">
 <!-- jQueryの読み込み -->
 <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
 
@@ -27,12 +30,12 @@ $(function() {
 
 
 <body>
-    
+
       <header id="header">
-        <h1><a href="#">自動販売機マップ</a></h1>
+        <h1><img src="img/jihanki.png" width="30px" height="30px" ;><a href="#">自動販売機マップ</a></h1>
         <nav class="pc-nav"><ul>
             <li><a href="index.html">TOP</a></li>
-            <li><a href="tetris.html">テトリス</a></li>
+            
             
             </ul>
         </nav>
@@ -40,7 +43,7 @@ $(function() {
         <nav class="sp-nav">
             <ul>
             <li><a href="index.html">TOP</a></li>
-            <li><a href="tetris.html">テトリス</a></li>
+            
             
                 <li class="close"><span>閉じる</span></li>
             </ul>
@@ -58,10 +61,10 @@ $(function() {
 <h1 class=tomei style="padding-bottom: 50px;">JihankiMap</h1>
 <h1 style = "text-align: center; padding-bottom: 25px;">自動販売機マップ</h1>    
 <div class="wrap">
-<iframe  src="Jihankimap2.html" style="width:80%;height:500px;  border:solid;border-color:rgb(245, 216, 179);border-width:1px;background-color:#ffffff;border-radius: 5px" ></iframe>
+<iframe  src="Jihankimap.html" style="width:80%;height:500px;  border:solid;border-color:rgb(245, 216, 179);border-width:1px;background-color:#ffffff;border-radius: 5px" ></iframe>
 </div>
-<div style = "text-align: center;">
-<a href="Jihankimap2.html"><img src="img/fullsc-tegaki.jpeg" alt="フルスクリーンはこちら"></a>
+<div style = "text-align:center;">
+<a href="Jihankimap.html"><img src="img/fullsc-tegaki.jpeg" alt="フルスクリーンはこちら" width="30%" height="30%" ></a>
 </div>
 <div class="usiro">
 <h2>凡例</h2>
@@ -78,12 +81,12 @@ $(function() {
 
 <footer id="footer02" class="outer-block">
           <div class="logo">
-            <img src="" alt="">
+            
           </div>
           <div class="cont">
       </div><!-- /inner-block -->
       <div class="copyright">
-        COPYRIGHT © kokuto821 Inc. All rights Reserved.
+        COPYRIGHT © Jihankimap Inc. All rights Reserved.
       </div>
     </footer>
     

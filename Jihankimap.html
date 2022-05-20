@@ -281,24 +281,6 @@ map.locate({
           //マーカー全体が入るボックスを広げる
           jbound.extend(mk.pos);
         }   
-      // var lbound = L.latLngBounds(doubleNlist[0].pos, doubleNlist[0].pos);
-      // //markerListの設定でマーカーを追加
-      // for (var num in doubleNlist) {
-      //   var mk = doubleNlist[num];
-      //   var popup = L.popup().setContent(mk.name);
-      //   L.marker(mk.pos,{icon: doubleNIcon,title: mk.name }).bindPopup(popup).addTo(map);
-      //   //マーカー全体が入るボックスを広げる
-      //   lbound.extend(mk.pos);
-      // }
-      // var nbound = L.latLngBounds(doubleYlist[0].pos, doubleYlist[0].pos);
-      // //markerListの設定でマーカーを追加
-      // for (var num in doubleYlist) {
-      //   var mk = doubleYlist[num];
-      //   var popup = L.popup().setContent(mk.name);
-      //   L.marker(mk.pos,{icon: doubleYIcon,title: mk.name }).bindPopup(popup).addTo(map);
-      //   //マーカー全体が入るボックスを広げる
-      //   nbound.extend(mk.pos);
-      // }                      
     //layersコントロールにbaseMapsオブジェクトを設定して地図に追加
       //コントロール内にプロパティ名が表示される
       L.control.layers(baseMaps).addTo(map);
