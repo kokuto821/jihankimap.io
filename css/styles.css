@@ -210,7 +210,10 @@ h2 {
 .wrap{
    text-align: center;
 }
-
+.usiro{
+   margin-left:80px;margin-right:80px;padding:20px;border-style:dashed;border-color: rgb(245, 216, 179);
+background-color:#fff;
+}
 
 
  
