@@ -15,6 +15,7 @@ body {
    font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", メイリオ, Meiryo, "ＭＳ Ｐゴシック", "Helvetica Neue", Helvetica, Arial, sans-serif;
    background-color: #fcfcfc;
    letter-spacing : 0.2em;
+   background-image: url(../img/pastel.jpeg);
 }
 header {
    padding: 30px 4% 10px;
@@ -208,5 +209,66 @@ h2 {
 
 .wrap{
    text-align: center;
+}
+
+
+
+ 
+ 
+#footer02 {
+  background: #E0FFFF;
+}
+ 
+.ie #footer02 .logo img,
+#footer02 .logo {
+  display: inline-block;
+  width: 120px;
+}
+ 
+#footer02 .nav li a {
+  padding: 15px;
+  color: #ccc;
+}
+ 
+#footer02 .c-btn {
+  margin-left: 25px;
+}
+ 
+ 
+@media screen and (min-width: 641px) {
+  #footer02 .logo {
+    padding: 10px 0;
+  }
+ 
+  #footer02 .wrap {
+    padding: 20px 0;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+ 
+  #footer02 .cont {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+ 
+  #footer02 .nav {
+    display: inline-block;
+  }
+ 
+  #footer02 .nav li {
+    display: inline-block;
+  }
+ 
+  #footer02 .nav li a:hover {
+    color: #ca353b;
+  }
 }
 
