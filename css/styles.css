@@ -54,7 +54,8 @@ li {
 }
 h2 {
    font-family: "M PLUS Rounded 1c";
-   margin: 0;
+   margin-left:10%;
+   margin-right: 10%;
    font-size: 30px;
    font-weight: normal;
    color: #fff;
@@ -92,28 +93,24 @@ img{
    text-align: center;
    display: block;
    margin:auto;
-
 }
 .imgsize{
    width: 300px;
    margin:30px;
-   height:200px;
-   
+   height:200px;  
 }
 
 .imgtxt{
    color:black;
 }
 
-
-
 .tomei {
-   color: #fff;
+   color: rgba(255, 255, 255, 0);
 }
 
 
 .usiro{
-   margin-top:40px;margin-bottom:40px;padding:20px;border-style:dashed;border-color: rgb(245, 216, 179);
+   margin-top:40px;margin-bottom:40px;margin-left:4.8%;margin-right: 4.8%;padding:20px;border-style:dashed;border-color: rgb(245, 216, 179);
 background-color:#fff;border-radius: 10px;/*角の丸み*/
 }
 
@@ -143,6 +140,10 @@ margin-left: 25px;
 /*　この位置に記述する　*/
    main {
       width: 80%;
+      margin-left: 10%;
+      margin-right: 10%;
+   }
+   h2{
       margin-left: 10%;
       margin-right: 10%;
    }
@@ -299,7 +300,66 @@ h2 {
    height: 2px;
    background-color: #fff;
 }
-
+/*スマホメニュー*/
+.sp-nav ul {
+   padding: 0;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   height: 100%;
+}
+.sp-nav li {
+   margin: 0;
+   padding: 0;
+}
+.sp-nav li span {
+   font-size: 15px;
+   color: #fff;
+}
+.sp-nav li a, .sp-nav li span {
+   display: block;
+   padding: 20px 0;
+}
+/*-閉じるアイコンー*/
+.sp-nav .close {
+   position: relative;
+   padding-left: 20px;
+}
+.sp-nav .close::before {
+   content: '';
+   position: absolute;
+   top: 50%;
+   left: 0;
+   display: block;
+   width: 16px;
+   height: 1px;
+   background: #fff;
+   transform: rotate( 45deg );
+}
+.sp-nav .close::after {
+   content: '';
+   position: absolute;
+   top: 50%;
+   left: 0;
+   display: block;
+   width: 16px;
+   height: 1px;
+   background: #fff;
+   transform: rotate( -45deg );
+}
+.toggle {
+   transform: translateY( 0 );
+   opacity: 1;
+}
+.main-visual {
+   padding: 0 4%;
+}
+h2 {
+   
+   line-height: 1.6;
+   text-align: center;
+}
 }
    
 
