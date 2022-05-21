@@ -108,8 +108,7 @@ var List = [
 var yasulist =  [
       {pos: [35.742595,139.603735], name: sp.yasu},
       {pos: [35.745158,139.601090], name:sp.two},
-      {pos: [35.747239,139.597888], name:sp.yasu},
-      
+      {pos: [35.747239,139.597888], name:sp.yasu},     
       {pos: [35.744206,139.599733], name:sp.pokka},
       {pos: [35.744841,139.598821], name:sp.yasu},
       {pos: [35.744744,139.601149], name:sp.yasu},
@@ -228,9 +227,9 @@ map.on("locationfound", function(location) {
     if (!marker){
         var pulsingIcon = L.icon.pulse({
             iconSize:[20,20]
-           ,color:'#57c6fd'
-           ,fillColor:'#57c6fd'
-           ,heartbeat: 2
+          ,color:'#57c6fd'
+          ,fillColor:'#57c6fd'
+          ,heartbeat: 2
         });
         L.marker(location.latlng, {icon:pulsingIcon}).addTo(map);
     }
@@ -247,11 +246,7 @@ map.locate({
     enableHighAccuracy: true
 });  
   
-    //////////////上map基本設定
-      
-      //var sucontents = "${mk.name}<br>${mk.img}"
-      //var popup1 = L.popup({ maxWidth: 550 }).setContent(sucontents);
-
+//////////////上map基本設定
       //マーカー全体が入るボックスを作る
       var lbound = L.latLngBounds(List[0].pos, List[0].pos);
         //markerListの設定でマーカーを追加
