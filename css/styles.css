@@ -10,10 +10,10 @@ body {
    font-family: "M PLUS Rounded 1c";
    margin: 0;
    padding: 0;
-   
    background-color: #fcfcfc;
    letter-spacing : 0.2em;
    background-image: url(../img/pastel.jpeg);
+   padding-top: 65px;
 }
 header {
    padding: 30px 4% 10px;
@@ -33,7 +33,7 @@ h1 {
 		0 0 0.10em #0755ffad,
 		0 0 0.15em #0755ffad,
 		0 0 0.30em #0755ffad;
-	filter: saturate(80%);
+      
    
 }
 a {	
@@ -56,7 +56,7 @@ h2 {
    font-family: "M PLUS Rounded 1c";
    margin-left:10%;
    margin-right: 10%;
-   font-size: 30px;
+   font-size: 25px;
    font-weight: normal;
    color: #fff;
    -webkit-text-stroke: 1px rgb(0, 0, 0);
@@ -103,11 +103,6 @@ img{
 .imgtxt{
    color:black;
 }
-
-.tomei {
-   color: rgba(255, 255, 255, 0);
-}
-
 
 .usiro{
    margin-top:40px;margin-bottom:40px;margin-left:4.8%;margin-right: 4.8%;padding:20px;border-style:dashed;border-color: rgb(245, 216, 179);

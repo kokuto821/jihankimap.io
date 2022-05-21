@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex,nofollow">
+<title>自販機マップ</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!-- faviconの読み込み -->
+<link rel="icon" href="img/faviconjihanki.ico">
+<!-- cssの読み込み -->
+<link rel="stylesheet" href="css/styles.css">
+<!-- fontの読み込み -->
+<link href="https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c" rel="stylesheet">
+<!-- jQueryの読み込み -->
+<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+
+<!-- スマホナビの表示・非表示 -->
+<script>
+$(function() {
+const hum = $('#hamburger, .close')
+const nav = $('.sp-nav')
+hum.on('click', function(){
+    nav.toggleClass('toggle');
+});
+});
+</script> 
+
+</head>
+
+
+<body>
+<header id="header">
+<h1><img src="img/jihanki.png" width="30px" height="30px" ;><a href="#">自動販売機マップ</a></h1>
+<nav class="pc-nav"><ul>
+<li><a href="index.html">TOP</a></li>
+<li><a href="Jihanki-info.html">INFO</a></li>
+<li><a href="myprof.html">PROFILE</a></li>
+</ul>
+</nav>
+<nav class="sp-nav">
+<ul>
+<li><a href="index.html">TOP</a></li>
+<li><a href="Jihanki-info.html">INFO</a></li>
+<li><a href="myprof.html">PROFILE</a></li>
+<li class="close"><span>閉じる</span></li>
+</ul>
+</nav> 
+<div id="hamburger">
+<span></span>
+</div>
+</header> 
+<!-- スマホナビの表示・非表示 -->
+<p></p>
+<br>
+<div class="imgflame">
+</div>   
+<!-- メイン -->
+<main> 
+
+<h1 style = "text-align: center; padding-bottom: 25px;color:#ffffff;">Profile-私について-</h1>
+<div class="usiro"><p>東京の私立大学に通っている大学３回生です。<br>大学では地理を学んでおり、自然地理学を専攻しています。学ぶ内容は地形、水文、気候、環境保全、地理情報などです。現在所属しているゼミでは南西諸島のサンゴ礁や地殻変動の研究をしています。
+サークルでは写真部に属しており、幹部でもあります。その中でもSNSやホームページの運営を行う役割を担っています。</p></div>
+<div class="usiro">
+    <p>居住地:「東京都練馬区石神井町（１５年くらい住んでいます）」</p>
+    <p>完璧ではないが使えそうな言語（自分のなかでは得意な方、すべて実務未経験）：「HTML,CSS,Javascript」</p>
+    <p>ほんのすこしだけわかる言語(Progateの無料コースレベル)：「Python(大学の授業・ゼミなどで使用),PHP（WordPressで使用）,JQuery」</p>
+    <p>趣味：「写真撮影（特に風景）、公共交通機関をつかった旅行、漫画、アニメ、ゲームなど」</p>
+    <p>昔していた習い事（小学生）：「テニス、そろばん、水泳、工作、絵画（これは中学生までやってました）」</p>
+    <p>部活動（中学～高校）：「ソフトテニス→公式テニス」</p>
+    <p>バイト歴：「ケンタッキー・フライド・チキン（ひたすらチキンを揚げていました）→出版社で事務関係の仕事→スーパーマーケットで品出し（現在）」</p>
+
+</div>
+<h1 style = "text-align: center; padding-bottom: 25px;color:#ffffff;">作品集</h1>
+<div class="usiro">
+<h2>自動販売機マップ（このサイト）</h2>
+<a href="https://kokuto821.github.io/jihankimap.io/" style="text-align:center;"><img src="img/jihankimap-link.jpeg" alt="" width="30%" height="30%" ></a>
+<br><a href="https://kokuto821.github.io/jihankimap.io/" style= "color:#42e2f7;text-align:center;">リンクはこちら</a>
+<br>
+<h2>写真展サイト（WordPressで作成）</h2>
+<a href="https://kokutophoto.com/" style="text-align:center;"><img src="img/kokutophoto.jpeg" alt="" width="30%" height="30%" ></a>
+<br><a href="https://kokutophoto.com/" style= "color:#42e2f7;text-align:center;">リンクはこちら</a>
+</div>
+    
+    
+        
+</main>
+
+<footer id="footer02" class="outer-block">
+    <div class="logo"></div>
+    <div class="cont"></div><!-- /inner-block -->
+    <div class="copyright">
+    　COPYRIGHT © Jihankimap Inc. All rights Reserved.<br><br>
+    </div>
+</footer>
+    
+    
+</body>
+</html>
