@@ -1,0 +1,12 @@
+.ImgBox{
+  width: 280px;
+  height: 200px;
+  overflow: hidden;
+}
+.ImgBox-Img{
+  transition-duration: 0.3s;
+}
+.ImgBox-Img:hover{
+  transform: scale(1.2);
+  transition-duration: 0.3s;
+}

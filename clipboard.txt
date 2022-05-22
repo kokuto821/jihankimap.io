@@ -1,0 +1,3 @@
+<div class="ImgBox">
+  <img src="https://yuyauver98.me/wp-content/uploads/2020/04/猿田彦珈琲カップのコピー.jpg" class="ImgBox-Img">
+</div>
