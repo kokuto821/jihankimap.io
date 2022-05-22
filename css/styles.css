@@ -355,7 +355,7 @@ p{
 }
 h2 {
    font-size: 3.5vw;
-   line-height: 1.6;
+   line-height: 1;
    text-align: center;
    -webkit-text-stroke: 0.05vw rgba(0, 0, 0, 0.795);
 }
