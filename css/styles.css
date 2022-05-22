@@ -62,9 +62,7 @@ h2 {
    -webkit-text-stroke: 1px rgb(0, 0, 0);
    
 }
-p{
-   font-family: "M PLUS Rounded 1c";
-}
+
 img{
    vertical-align:bottom;
 }
@@ -106,7 +104,7 @@ img{
 
 .usiro{
    margin-top:40px;margin-bottom:40px;margin-left:4.8%;margin-right: 4.8%;padding:20px;border-style:dashed;border-color: rgb(245, 216, 179);
-background-color:#fff;border-radius: 10px;/*角の丸み*/
+background-color:#fff;border-radius: 10px;/*角の丸み*/text-align: center;
 }
 
 /* id */
@@ -141,6 +139,8 @@ margin-left: 25px;
    h2{
       margin-left: 10%;
       margin-right: 10%;
+      text-align: center;
+      -webkit-text-stroke: 0.05vw rgba(0, 0, 0, 0.795);
    }
 
 #footer02 .logo {
@@ -233,11 +233,14 @@ margin-left: 25px;
 .main-visual {
    padding: 0 4%;
 }
-h2 {
-   
+p{
+   font-family: "M PLUS Rounded 1c";
+   text-align:left;
+}
+/* h2 {  
    line-height: 1.6;
    text-align: center;
-}
+} */
 }
 
 @media screen and (max-width: 680px) {
@@ -351,9 +354,15 @@ h2 {
    padding: 0 4%;
 }
 h2 {
-   
+   font-size: 3.5vw;
    line-height: 1.6;
    text-align: center;
+   -webkit-text-stroke: 0.05vw rgba(0, 0, 0, 0.795);
+}
+p{
+   font-family: "M PLUS Rounded 1c";
+   font-size:2.3vw;
+   text-align:left;
 }
 }
    

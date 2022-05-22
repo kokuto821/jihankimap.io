@@ -169,6 +169,9 @@ function init() {
       //オープンストリートマップのタイル
       var osm = L.tileLayer('http://tile.openstreetmap.jp/{z}/{x}/{y}.png',
         {  attribution: "<a href='http://osm.org/copyright' target='_blank'>OpenStreetMap</a> contributors" });
+      //googlemapのタイル
+      var gmap = L.tileLayer('https://mt1.google.com/vt/lyrs=r&x={x}&y={y}&z={z}',
+        {attribution: "<a href='https://developers.google.com/maps/documentation' target='_blank'>Google Map</a>"});
       //地理院地図の標準地図タイル
       var gsi =L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/std/{z}/{x}/{y}.png', 
         {attribution: "<a href='https://maps.gsi.go.jp/development/ichiran.html' target='_blank'>地理院タイル</a>"});
@@ -180,6 +183,7 @@ function init() {
       //baseMapsオブジェクトのプロパティにタイルを設定
       var baseMaps = {
         "オープンストリートマップ"  : osm,
+        "Google マップ": gmap,
         "航空写真" : gsikouku,
         "地理院地図" : gsi,
         "淡色地図" : gsipale
