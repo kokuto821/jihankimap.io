@@ -106,6 +106,9 @@ img{
    margin-top:40px;margin-bottom:40px;margin-left:4.8%;margin-right: 4.8%;padding:20px;border-style:dashed;border-color: rgb(245, 216, 179);
 background-color:#fff;border-radius: 10px;/*角の丸み*/text-align: center;
 }
+.center{
+   text-align:center;
+}
 
 /* id */
 #footer02 {
