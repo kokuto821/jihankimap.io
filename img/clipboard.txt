@@ -1,0 +1,1 @@
+<div class="center ImgBox"><img src="img/pokka.jpeg" class="ImgBox-Img" width="20%" height="20%"><br><p class="center">pokkasapporo</p></div>
