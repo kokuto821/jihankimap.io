@@ -23,15 +23,15 @@
 <script>
 //自販機の種類を定義
 var nl = {
-  cola:"　コカ・コーラ ",coke:"　コークオン ",kiri:"　キリン　",asa:"　アサヒ　",sun:"　サントリー　",ito:"　伊藤園　",dydo:"　Dydo　",yaku:"　ヤクルト　",good:"　グッドドリンク　"
+  cola:"　コカ・コーラ ",coke:"　コークオン ",kiri:"　キリン　",asa:"　アサヒ　",sun:"　サントリー　",ito:"　伊藤園　",dydo:"　Dydo　",yaku:"　ヤクルト　",good:"　グッドドリンク　",pokka:" ポッカサッポロ  "
 };
 var sp = {
   cup:"　自販機(紙コップのタイプ)　",two:"　格安自販機（twodown）　",mira:"　格安自販機（ミラクルプライス）　",pokka:"　格安自販機（ポッカサッポロ）　",yasu:"　格安自販機(その他)　",
-  dashi:"　だしの自販機 ",seventeen:"　セブンティーンアイス ",tabaco:"　タバコ　",itothin:"　伊藤園（小）　",colathin:"　コカ・コーラ（小）",yasukiri:"　格安自販機（キリン）　",otsuka:"　otsuka　",
+  dashi:"　だしの自販機 ",seventeen:"　セブンティーンアイス ",tabaco:"　タバコ　",itothin:"　伊藤園（小）　",colathin:"　コカ・コーラ（小）",yasukiri:"　格安自販機（キリン）　",otsuka:"　otsuka　",wel:"伊藤園ウェルネス",
 }
 //自販機の座標と種類をリスト化　{pos: [], name:},
 var List = [
-      //{pos: [], name: },
+      //{  pos: [], name: },
       {pos: [35.743490,139.602973], name: nl.cola + sp.cup},
       {pos: [35.743111,139.603365], name: nl.sun},        
       {pos: [35.743704,139.602732], name:nl.ito},
@@ -86,6 +86,24 @@ var List = [
       {pos: [35.744885469350045, 139.60805099383276], name:nl.asa },
       {pos: [35.74429532516351,139.60843096500227], name:nl.asa },
       {pos: [35.743708,139.607469], name:nl.ito },
+      {  pos: [35.7437573, 139.6053157], name:nl.ito},
+      {  pos: [35.7436387, 139.6053499], name:nl.ito },
+      {  pos: [35.743304,139.605462], name:nl.ito },
+      {  pos: [35.7427962, 139.6059544], name:nl.cola+nl.sun },
+      {  pos: [35.7388641, 139.6056134], name:nl.pokka + nl.sun },
+      {  pos: [35.7368663, 139.6031924], name:nl.kiri },
+      {  pos: [35.7361139, 139.6002258], name:nl.dydo },
+      {  pos: [35.7358934, 139.6001269], name:nl.ito },
+      {  pos: [35.7358360, 139.6005728], name:nl.coke + nl.suntory },
+      {  pos: [35.7381618, 139.5988133], name:nl.ito },
+      {  pos: [35.7402278, 139.5989582], name:nl.sun },
+      {  pos: [35.7414603, 139.5992304], name:nl.sun },
+      {  pos: [35.7424721, 139.5987674], name:nl.pokka },
+      {  pos: [35.7426773, 139.5994115], name:nl.sun },
+      {  pos: [35.7427352, 139.5995962], name:nl.ito },
+      {  pos: [35.7423322, 139.6000398], name:nl.ito },
+      {  pos: [35.7415547, 139.6024081], name:nl.asa },
+      {  pos: [35.7415953, 139.6026033], name:nl.dydo },
 
 
       {pos: [35.742967,139.603118], name: nl.cola + nl.kiri},
@@ -104,7 +122,7 @@ var List = [
       {pos: [35.740508,139.606095], name: nl.asa+ nl.coke },
       {pos: [35.74330439063087,139.60825306471057], name: nl.ito+ nl.coke },
       {pos: [35.743736419860035,139.60886883562395], name: nl.ito+ nl.ito},
-    ];
+    ]; 
 
 var yasulist =  [
       {pos: [35.742595,139.603735], name: sp.yasu},
@@ -130,6 +148,16 @@ var yasulist =  [
       {pos: [35.74433337900391,139.60856365052948], name:"　ハッピープライス　" },
       {pos: [35.740142,139.608429], name:"　ベストチョイス　"+"　ベストチョイス　" },
       {pos: [35.744274,139.603821], name:sp.yasu + sp.mira},
+      
+      {  pos: [35.7434787, 139.6058092], name:sp.yasu },
+      {  pos: [35.7434332, 139.6054374], name:sp.wel },
+      {  pos: [35.7428093, 139.6059969], name:sp.wel+sp.yasu },
+      {  pos: [35.7430324, 139.6076006], name:sp.yasu },
+      {  pos: [35.7430572, 139.6070487], name:sp.two },
+      {  pos: [35.7370977, 139.6053979], name:sp.two },
+      {  pos: [35.7364081, 139.6032631], name:sp.pokka },
+      {  pos: [35.7358210, 139.6005390], name: " 全農 "},
+      {  pos: [35.7381735, 139.5988485], name:sp.yasu },
 
 ];
 var doubleNlist = [
