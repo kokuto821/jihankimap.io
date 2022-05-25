@@ -147,6 +147,14 @@ background-color:#fff;border-radius: 10px;/*角の丸み*/text-align: center;
    padding: 10px;
    
 } 
+
+.fullsc{
+   width:170px;
+   height: 25px;
+}
+.pad{
+   padding-left:5%;padding-right:5%;
+}
 /* id */
 #footer02 {
 background: #E0FFFF;
@@ -296,10 +304,7 @@ p{
    
    text-align:left;
 }
-.fullsc{
-   width:170px;
-   height: 25px;
-}
+
 }
    
 
