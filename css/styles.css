@@ -31,7 +31,7 @@ h1 {
    text-shadow: 
 		0 0 0.05em #0755ffad,
 		0 0 0.10em #0755ffad,
-      		0 0 0.15em #0755ffad,
+      0 0 0.15em #0755ffad,
 		0 0 0.30em #0755ffad;   
 }
 a {	
@@ -56,8 +56,8 @@ h2 {
    margin-right: 10%;
    font-size: 25px;
    font-weight: normal;
-   color: #fff;
-   -webkit-text-stroke: 1px rgb(0, 0, 0);
+   color: rgba(255, 149, 250, 0.301);
+   -webkit-text-stroke: 1px rgba(0, 0, 0, 0.082);
    
 }
 
@@ -89,7 +89,7 @@ p{
    border:solid;border-color:rgb(245, 216, 179);
    border-width:5px;
    background-color:#ffffff;
-   border-radius: 5px
+   border-radius: 5px;
 }
 .wrap{
    text-align: center;
@@ -130,13 +130,23 @@ background-color:#fff;border-radius: 10px;/*角の丸み*/text-align: center;
 
 .flex{
     display: flex;/*コレ*/
-    padding: 10px;
+   
 }
 .flex div{
     width: 50%;
-    margin: 10px;
-    padding: 10px;
+    
 }   
+.flexc{
+   display: flex;/*コレ*/justify-content: center;
+   padding: 10px;
+   
+}
+.flexc div{
+   width: 50%;
+   margin: 10px;
+   padding: 10px;
+   
+} 
 /* id */
 #footer02 {
 background: #E0FFFF;
