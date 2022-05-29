@@ -63,6 +63,8 @@ h2 {
 
 img{
    vertical-align:bottom;
+   border-radius: 10px;
+   
 }
 p{
    font-family: "M PLUS Rounded 1c";
@@ -155,6 +157,8 @@ background-color:#fff;border-radius: 10px;/*角の丸み*/text-align: center;
 .pad{
    padding-left:5%;padding-right:5%;
 }
+
+
 /* id */
 #footer02 {
 background: #E0FFFF;
